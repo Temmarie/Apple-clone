@@ -108,6 +108,11 @@ input[type=text] {
   height: 29px;
 }
 
+h6 {
+  font-size: 0.0009rem;
+  color:white;
+}
+
 .bottom-section {
   display: flex;
   flex-grow: 1;
@@ -138,18 +143,21 @@ footer {
 
 .left-side {
   float: left;
+  margin-left: 200px;
 }
 
 .right-side {
   float: right;
   margin-top: -2px;
   justify-content: space-evenly;
+  margin-right: 150px;
 }
 
 .bottom-side {
   float: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 200px;
 }
 
 .clear {
