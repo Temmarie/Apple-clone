@@ -65,3 +65,37 @@ input[type=text] {
  .nav-links .fa-apple {
    font-size:1.3rem;
  }
+
+ .background-image{
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  width: 100%;
+  height: 538px;
+}
+.verses-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+}
+
+.verses-container a {
+margin: 9px;
+}
+.what-will {
+background: url('images/what.png') no-repeat -182px -22px;
+width: 616px;
+height: 64px;
+}
+
+.everyone {
+background: url('images/everyone.png') no-repeat -102px -6px;
+width: 776px;
+height: 73px;
+}
+
+.verse-film {
+background: url('images/verse film.png') no-repeat -219px -2px;
+width: 540px;
+height: 29px;
+}
