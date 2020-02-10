@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  width: 100%;
+  max-width: 832px;
+  max-height: 450px;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 36px;
+  margin-left: calc(50% - 400px);
+  margin-top: 70px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: myFirstFont, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: linear-gradient(to bottom, rgb(119, 124, 120) 5%, rgb(105, 105, 105) 11%, rgb(100, 100, 100) 50%, rgb(82, 82, 82) 51%, rgb(100, 105, 101) 100%);
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  border-left: 0.5px solid #545454;
+  flex: 1;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.bottom-section img {
+  width: 100%;
+}
+
+.search-bar .search img {
+  position: absolute;
+  top: 3.3px;
+  right: 90px;
+  font-size: 1.2rem;
+}
+
+input[type=text] {
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 108px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  box-shadow: 0 -2px rgb(70, 70, 70);
+}
+
+.nav-links .fa-apple {
+  font-size: 1.3rem;
+}
+
+.background-image {
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  width: 100%;
+  height: 538px;
+}
+
+.verses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.verses-container a {
+  margin: 9px;
+}
+
+.what-will {
+  background: url('images/what.png') no-repeat -182px -22px;
+  width: 616px;
+  height: 64px;
+}
+
+.everyone {
+  background: url('images/everyone.png') no-repeat -102px -6px;
+  width: 776px;
+  height: 73px;
+}
+
+.verse-film {
+  background: url('images/verse film.png') no-repeat -219px -2px;
+  width: 540px;
+  height: 29px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 2px;
+}
+
+footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10.0008px;
+  font-weight: 300;
+  line-height: 12.001px;
+  color: rgb(110, 110, 110);
+  position: sticky;
+  width: 100%;
+  margin-left: -20px;
+  padding: 20px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.footer-links .usa {
+  margin-bottom: -5px;
+}
+
+.left-side {
+  float: left;
+  margin-left: 200px;
+}
+
+.right-side {
+  float: right;
+  margin-top: -2px;
+  justify-content: space-evenly;
+  margin-right: 150px;
+}
+
+.bottom-side {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+
+.clear {
+  clear: both;
+}
