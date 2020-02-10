@@ -99,3 +99,21 @@ background: url('images/verse film.png') no-repeat -219px -2px;
 width: 540px;
 height: 29px;
 }
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.bottom-section img {
+  width: 345px;
+  height: 200px;
+}
+.bottom-section .supplier {
+  width: 300px;
+  height: 200px;
+}
+
