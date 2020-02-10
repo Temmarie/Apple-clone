@@ -48,8 +48,7 @@ nav {
 }
 
 .bottom-section img {
-  width: 345px;
-  height: 200px;
+  width: 100%;
 }
 
 .search-bar .search img {
@@ -111,15 +110,9 @@ input[type=text] {
 
 .bottom-section {
   display: flex;
-  justify-content: space-between;
-  flex: 1;
+  flex-grow: 1;
   width: 100%;
   margin-top: 2px;
-}
-
-.bottom-section .supplier {
-  width: 300px;
-  height: 200px;
 }
 
 footer {
