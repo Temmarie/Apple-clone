@@ -19,6 +19,7 @@ nav {
   margin-left: calc(50% - 400px);
   margin-top: 70px;
   flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .nav-bar {
