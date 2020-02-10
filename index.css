@@ -189,6 +189,8 @@ color: rgb(0, 136, 204);
 
  .bottom-side {
    float:left;
+   margin-top: 20px;
+   margin-bottom: 20px;
  }
 .clear {
   clear:both;
