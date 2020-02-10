@@ -65,47 +65,7 @@ input[type=text] {
  .nav-links .fa-apple {
    font-size:1.3rem;
  }
- /* .nav-bar:nth-child(1) {
-  grid-column: 1/2;
-  }
-  
-  .nav-bar:nth-child(2) {
-    grid-column: 2/3;
-    
-  }
-  
-  .nav-bar:nth-child(3) {
-    grid-column: 3/4;
-    
-  }
-  .nav-bar:nth-child(4) {
-    grid-column: 4/5;
-    
-  }
-  .nav-bar:nth-child(5) {
-    grid-column: 5/6;
-    
-  }
-  .nav-bar:nth-child(6) {
-    grid-column: 6/7;
-    
-  }
-  
-  .nav-bar:nth-child(7) {
-    grid-column: 7/8;
-    
-  }
-   
-  .nav-bar:nth-child(8) {
-    grid-column: 8/9;
-    
-  }
-  
-  .nav-bar:nth-child(9) {
-    grid-column: 9/10;
-    
-  }
-   */
+ 
   .background-image{
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     width: 100%;
